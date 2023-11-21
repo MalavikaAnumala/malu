@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <center>
+
+<head>
+    <title>Sign-Up Form</title>
+    <style>
+        table, th,td {
+            border:1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <h1>Please sign up here!!!</h1>
+        <br>
+        <table>
+            <tr>
+                <th rowspan="1">Enter Username:</th>
+                <td colspan="2"><input type="text" name="Username" required></td>
+            </tr>
+            <tr>
+                <th rowspan="1">Enter Password:</th>
+                <td colspan="2"><input type="password" name="Password" required></td>
+            </tr>
+            <tr>
+                <th rowspan="1">Confirm Password:</th>
+                <td colspan="2"><input type="password" name="confirm" required></td>
+            </tr>
+            <tr>
+                <th rowspan="1">Select Gender:</th>
+                <td colspan="1"><input type="radio" id="male" name="gender" value="male">
+                 <label for="male">Male</label>
+                 <td colspan="1"><input type="radio" id="female" name="gender" value="female">
+                  <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="1">Enter Mobile number:</th>
+                <td colspan="2"><input type="tel" name="mobile" required></td>
+            </tr>
+            <tr>
+                <th rowspan="1">Enter DOB:</th>
+                <td colspan="2"><input type="date" name="date" required></td>
+            </tr>
+            <tr>
+                <th rowspan="1">Enter Address:</th>
+                <td colspan="2"><input type="text" name="address" required></td>
+            </tr>
+            <tr>
+                <th rowspan="1">Select Qualification:</th>
+                <td colspan="2">
+                    <select name="qualification" id="qual">
+                        <option value="B.Tech">BTech</option>
+                        <option value="B.Com">BCom</option>
+                        <option value="B.E">BE</option>
+                        <option value="Diploma">Diploma Polytechnic</option>
+                        <option value="X Standard">10<sup>th</sup> passed</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="1">Choose your Skills:</th>
+                <td colspan="2">
+                    <select name="skills">
+                        <option value="java">Java</option>
+                        <option value="c">C</option>
+                        <option value="r">R</option>
+                        <option value="python">Python</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="1">Preferred Shift:</th>
+                <td colspan="1"><input type="radio" id="day_shift" name="shift" value="day_shift">
+                    <label for="day_shift">Day Shift</label>
+                    <td colspan="1"><input type="radio" id="night_shift" name="shift" value="night_shift">
+                    <label for="night_shift">Night Shift</label>
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="1">Upload your Resume:</th>
+                <td colspan="2"><input type="file" name="resume"></td>
+            </tr>
+        </table>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </fieldset>
+</body>
+</center>
+</html>

@@ -1,0 +1,32 @@
+/* way.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    color:rgb(212, 225, 225);
+    border-style: dotted;
+    border-width: 2cqmax;
+    padding-top: 5pc;
+    margin: top 4px;;
+}
+h2,h3,p {
+    color: blue;
+    border-style: dashed;
+    padding-bottom: 2%;
+}
+body {
+    background-color: rgb(133, 137, 138);
+    background-image: url("./images/M1.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 30px;
+   
+}
+h4 {
+    
+    background-color: blueviolet;
+
+}
+
